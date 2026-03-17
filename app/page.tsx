@@ -10,6 +10,8 @@ import FAQ from "./components/FAQ";
 import PeaceOfMind from "./components/PeaceOfMind";
 import LegalDisclosures from "./components/LegalDisclosures";
 import Footer from "./components/Footer";
+import PeaceOfMindSection from "./components/PeaceOfMindSection";
+
 
 export default function Home() {
   return (
@@ -18,13 +20,14 @@ export default function Home() {
       <Customer />
       <TrustSection />
       <CashAdvance />
-      <AppPromotion />
+      {/* <AppPromotion />
       <GetStarted />
       <FinancialEducation />
       <FAQ />
       <Partners />
-      <Footer />
-      <LegalDisclosures />
+      <PeaceOfMindSection /> */}
+      {/* <Footer /> */}
+      {/* <LegalDisclosures /> */}
     </div>
   );
 }
