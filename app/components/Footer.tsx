@@ -112,7 +112,7 @@ export default function Footer() {
             Contact
           </h3>
 
-          <ul className="w-[196.67px] h-[129px] space-y-2 absolute top-[35px]">
+          <ul className="w-[196.67px] h-[129px] space-y-2 absolute top-[35px">
             <li className="w-fit h-[23px] font-['Poppins'] font-normal text-[16.9px] leading-[27px] text-[#606060] align-middle">
               (866) 488-6090
             </li>

@@ -20,13 +20,13 @@ export default function Home() {
       <Customer />
       <TrustSection />
       <CashAdvance />
-      {/* <AppPromotion />
-      <GetStarted />
+      <AppPromotion />
+      {/* <GetStarted />
       <FinancialEducation />
       <FAQ />
       <Partners />
-      <PeaceOfMindSection /> */}
-      {/* <Footer /> */}
+      <PeaceOfMindSection />
+      <Footer /> */}
       {/* <LegalDisclosures /> */}
     </div>
   );
