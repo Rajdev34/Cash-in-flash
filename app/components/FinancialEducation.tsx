@@ -233,22 +233,20 @@ export default function FinancialEducation() {
                     <h2 className="text-[#052116] text-[32px] sm:text-4xl md:text-6xl font-extrabold leading-tight mb-4 md:mb-6">
                         Get <span className="relative inline-block">
                             <span className="text-[#15C15D]">Smarter</span>
-                            <div className="hidden lg:block">
+                            <div className="hidden md:block relative w-full h-[6px]">
                                 <Image
                                     src="/svg/image6.png"
                                     alt="Underline Financial"
-                                    width={468}
-                                    height={6}
-                                    className="w-full h-auto" // Keeps it responsive
+                                    fill
+                                    className="object-contain" // or object-cover depending on the look
                                 />
                             </div>
-                            <div className="lg:hidden block">
+                            <div className="md:hidden block  relative w-full h-[6px]">
                                 <Image
                                     src="/svg/image7.png"
                                     alt="Underline Financial"
-                                    width={468}
-                                    height={6}
-                                    className="w-full h-auto" // Keeps it responsive
+                                    fill
+                                    className="object-contain" // or object-cover depending on the look
                                 />
                             </div>
                         </span> With<br />

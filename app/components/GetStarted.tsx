@@ -471,22 +471,20 @@ export default function GetStarted() {
                             Three Simple Ways To<br />
                             <span className="relative inline-block">
                                 <span className="text-[#15C15D]">Get Started</span>
-                                <div className="hidden md:hidden lg:block mt-1">
+                                <div className="hidden lg:block relative w-full h-[6px]">
                                     <Image
                                         src="/svg/image4.png"
                                         alt="Underline Financial"
-                                        width={468}
-                                        height={6}
-                                        className="w-full h-auto" // Keeps it responsive
+                                        fill
+                                        className="object-contain" // or object-cover depending on the look
                                     />
                                 </div>
-                                <div className="lg:hidden block mt-1">
+                                <div className="lg:hidden block relative w-full h-[6px]">
                                     <Image
                                         src="/svg/image5.png"
                                         alt="Underline Financial"
-                                        width={468}
-                                        height={6}
-                                        className="w-full h-auto" // Keeps it responsive
+                                        fill
+                                        className="object-contain" // or object-cover depending on the look
                                     />
                                 </div>
                             </span>
