@@ -233,9 +233,24 @@ export default function FinancialEducation() {
                     <h2 className="text-[#052116] text-[32px] sm:text-4xl md:text-6xl font-extrabold leading-tight mb-4 md:mb-6">
                         Get <span className="relative inline-block">
                             <span className="text-[#15C15D]">Smarter</span>
-                            <svg className="absolute -bottom-1 md:-bottom-2 left-0 w-full h-2 md:h-3 text-[#15C15D]" viewBox="0 0 100 10" preserveAspectRatio="none">
-                                <path d="M0,5 Q50,12 100,5" stroke="currentColor" strokeWidth="6" fill="transparent" strokeLinecap="round" />
-                            </svg>
+                            <div className="hidden lg:block">
+                                <Image
+                                    src="/svg/image6.png"
+                                    alt="Underline Financial"
+                                    width={468}
+                                    height={6}
+                                    className="w-full h-auto" // Keeps it responsive
+                                />
+                            </div>
+                            <div className="lg:hidden block">
+                                <Image
+                                    src="/svg/image7.png"
+                                    alt="Underline Financial"
+                                    width={468}
+                                    height={6}
+                                    className="w-full h-auto" // Keeps it responsive
+                                />
+                            </div>
                         </span> With<br />
                         Your Money.
                     </h2>

@@ -471,9 +471,24 @@ export default function GetStarted() {
                             Three Simple Ways To<br />
                             <span className="relative inline-block">
                                 <span className="text-[#15C15D]">Get Started</span>
-                                <svg className="absolute -bottom-2 left-0 w-full h-3 text-[#15C15D] opacity-60" viewBox="0 0 100 10" preserveAspectRatio="none">
-                                    <path d="M0,5 Q50,12 100,5" stroke="currentColor" strokeWidth="6" fill="transparent" strokeLinecap="round" />
-                                </svg>
+                                <div className="hidden md:hidden lg:block mt-1">
+                                    <Image
+                                        src="/svg/image4.png"
+                                        alt="Underline Financial"
+                                        width={468}
+                                        height={6}
+                                        className="w-full h-auto" // Keeps it responsive
+                                    />
+                                </div>
+                                <div className="lg:hidden block mt-1">
+                                    <Image
+                                        src="/svg/image5.png"
+                                        alt="Underline Financial"
+                                        width={468}
+                                        height={6}
+                                        className="w-full h-auto" // Keeps it responsive
+                                    />
+                                </div>
                             </span>
                         </h2>
                         <p className="text-gray-600 text-lg md:text-xl max-w-[500px]">
@@ -503,17 +518,6 @@ export default function GetStarted() {
                                     "Fast, easy, and stress-free. Cash in Flash really came through when I needed it."
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Decorative Divider */}
-                <div className="relative w-full h-px border-t border-dashed border-[#15C15D]/30 mb-20 flex justify-center mt-12">
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-4">
-                        <div className="w-12 h-12 rounded-full border border-[#3B82F6]/40 flex items-center justify-center bg-white">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18 6L6 18M6 6L18 18" stroke="#3B82F6" strokeWidth="2" strokeLinecap="round" />
-                            </svg>
                         </div>
                     </div>
                 </div>
