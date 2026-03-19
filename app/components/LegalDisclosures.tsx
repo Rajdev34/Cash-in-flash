@@ -4,8 +4,6 @@ export default function LegalDisclosures() {
     return (
         <section className="w-full bg-white py-12 border-t border-gray-100">
             <div className="max-w-[1240px] mx-auto px-6 text-gray-500 text-[11px] md:text-[13px] leading-relaxed font-normal space-y-6">
-
-                {/* State Licenses & Notices */}
                 <div className="space-y-4">
                     <p>View state licenses and notices.</p>
                     <p>New Jersey residents: This is an advertisement for a consumer loan.</p>

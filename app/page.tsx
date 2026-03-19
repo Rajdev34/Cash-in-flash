@@ -12,22 +12,22 @@ import LegalDisclosures from "./components/LegalDisclosures";
 import Footer from "./components/Footer";
 import PeaceOfMindSection from "./components/PeaceOfMindSection";
 
-
 export default function Home() {
   return (
-    <div className="min-h-screen relative font-sans">
+    <div className="min-h-screen relative font-sans w-full overflow-x-hidden">
       <Header />
       <Customer />
       <TrustSection />
       <CashAdvance />
       <AppPromotion />
-      {/* <GetStarted />
+
+      <GetStarted />
       <FinancialEducation />
       <FAQ />
       <Partners />
       <PeaceOfMindSection />
-      <Footer /> */}
-      {/* <LegalDisclosures /> */}
+      <Footer />
+      <LegalDisclosures />
     </div>
   );
 }

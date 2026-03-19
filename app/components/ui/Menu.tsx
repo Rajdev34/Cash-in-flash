@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export default function SidebarMenu() {
   return (
-    <div className="block md:hidden w-full max-w-[390px] mx-auto min-h-screen text-white pt-6 pb-6 px-5 flex flex-col
+    <div className="w-full min-h-screen text-white pt-6 pb-6 px-5 sm:px-8 md:px-12 flex flex-col
       bg-gradient-to-b from-[#0f2d23] to-[#071a14] bg-cover bg-no-repeat bg-bottom">
 
       <div className="space-y-6">
         {/* LOANS */}
-        <div className="text-base mb-3 ml-2 sm:ml-3 w-full max-w-[237px] gap-5">
+        <div className="text-base mb-3 ml-2 sm:ml-3 w-full gap-5">
           <p className="flex flex-row justify-between text-[#13EC6D] text-base mb-3 mt-4">
             LOANS <ChevronUp className="text-white" size={20} />
           </p>
@@ -30,7 +30,7 @@ export default function SidebarMenu() {
         </div>
 
         {/* TOOLS */}
-        <div className="text-base mb-3 ml-2 sm:ml-3 w-full max-w-[237px] gap-5">
+        <div className="text-base mb-3 ml-2 sm:ml-3 w-full gap-5">
           <p className="text-[11px] text-green-400 mb-3">TOOLS</p>
 
           <ul className="space-y-3 text-sm">
@@ -48,7 +48,7 @@ export default function SidebarMenu() {
         </div>
 
         {/* MARKET */}
-        <div className="ml-2 sm:ml-3 w-full max-w-[201px]">
+        <div className="ml-2 sm:ml-3 w-full max-w-sm">
           <div className="text-xs text-gray-300 space-y-2">
             <Image
               src="/images/Logo/logo2.png"
@@ -122,19 +122,19 @@ export default function SidebarMenu() {
       </div>
 
       {/* Bottom */}
-      <div className="ml-2 sm:ml-3 mt-auto pt-8">
-        <hr className="border-0 h-[1px] bg-white/20 w-full max-w-[280px] my-2" />
+      <div className="ml-2 sm:ml-3 mt-auto pt-8 w-full max-w-md">
+        <hr className="border-0 h-[1px] bg-white/20 w-full my-2" />
 
         <div className="text-sm text-gray-300 mt-3">
-          <div className="flex justify-between w-full max-w-[280px]">
+          <div className="flex justify-between w-full">
             Location <ArrowRight size={14} />
           </div>
         </div>
 
-        <hr className="border-0 h-[1px] bg-white/20 w-full max-w-[280px] my-2 mt-3" />
+        <hr className="border-0 h-[1px] bg-white/20 w-full my-2 mt-3" />
 
         <div className="text-sm text-gray-300">
-          <div className="flex justify-between w-full max-w-[280px]">
+          <div className="flex justify-between w-full">
             State <ArrowRight size={14} />
           </div>
         </div>
@@ -143,11 +143,11 @@ export default function SidebarMenu() {
           <MapPin size={16} /> Find a Store
         </div>
 
-        <div className="flex gap-3 mt-8">
-          <button className="bg-green-500 text-black text-sm px-4 py-2 rounded-full font-semibold w-full max-w-[140px]">
+        <div className="flex gap-3 mt-8 w-full">
+          <button className="bg-green-500 text-black text-sm px-4 py-2 rounded-full font-semibold w-full max-w-[50%]">
             Apply now
           </button>
-          <button className="bg-white text-black text-sm px-4 py-2 rounded-full w-full max-w-[140px]">
+          <button className="bg-white text-black text-sm px-4 py-2 rounded-full w-full max-w-[50%]">
             Log in
           </button>
         </div>

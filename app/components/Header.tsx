@@ -867,7 +867,7 @@ export default function Header() {
         </div>
       </div> */}
          {showMobileMenu && (
-            <div className="absolute top-[106px] left-0 w-full bg-white z-[100] p-4 shadow-lg">
+            <div className="absolute top-[106px] left-0 w-full z-[100] lg:hidden">
             <SidebarMenu />
             </div>
         )}

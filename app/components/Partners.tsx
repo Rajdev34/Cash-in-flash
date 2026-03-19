@@ -24,10 +24,9 @@ export default function Partners() {
     ];
 
     return (
-        <section className="relativew-full bg-white py-10 md:py-16 overflow-hidden">
-                    {/* On mobile, we specifically show these three as seen in SS */}
-            <div className="flex flex-row items-center w-[330px] h-[41px] px-[30px] gap-[49px] opacity-100 md:hidden">
-
+        <section className="relative w-full bg-white py-10 lg:py-16 overflow-hidden">
+            {/* Mobile View - visible until lg (1024px) */}
+            <div className="flex flex-row items-center justify-center w-full max-w-[425px] mx-auto h-[41px] px-[30px] gap-[30px] sm:gap-[49px] opacity-100 lg:hidden text-center">
                 <Image
                     src="/images/partners/business_insider.png"
                     alt="Business Insider"
@@ -53,14 +52,14 @@ export default function Partners() {
                 />
 
             </div>
-                    {/* Desktop View */}
-            <div className="hidden md:block relative absolute md:w-[1200px] md:h-[54px] md:left-[120px]">
+            {/* Desktop View - visible from lg (1024px) upwards */}
+            <div className="hidden lg:flex items-center justify-between max-w-[1200px] w-full mx-auto h-[54px] px-4 relative">
                 <Image
                     src="/images/partners/forbes.png"
                     alt="Forbes"
                     width={155}
                     height={38}
-                    className="absolute top-[8px] left-[30px] opacity-100"
+                    className="object-contain opacity-100"
                 />
 
                 <Image
@@ -68,7 +67,7 @@ export default function Partners() {
                     alt="Business Insider"
                     width={123}
                     height={40}
-                    className="absolute top-[7px] left-[302px] opacity-100"
+                    className="object-contain opacity-100"
                 />
 
                 <Image
@@ -76,7 +75,7 @@ export default function Partners() {
                     alt="USA Today"
                     width={165}
                     height={30}
-                    className="absolute top-[12px] left-[542px] opacity-100"
+                    className="object-contain opacity-100"
                 />
 
                 <Image
@@ -84,7 +83,7 @@ export default function Partners() {
                     alt="AOL"
                     width={80}
                     height={32}
-                    className="absolute top-[11px] left-[824px] opacity-100"
+                    className="object-contain opacity-100"
                 />
 
                 <Image
@@ -92,7 +91,7 @@ export default function Partners() {
                     alt="Yahoo Finance"
                     width={149}
                     height={54}
-                    className="absolute left-[1021px] opacity-100"
+                    className="object-contain opacity-100"
                 />
 
             </div>
