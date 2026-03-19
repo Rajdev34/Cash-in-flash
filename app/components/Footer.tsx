@@ -794,17 +794,41 @@ export default function Footer() {
           <div className="md:col-span-4 mt-10 md:mt-0 min-[425px]:max-md:col-span-2 flex flex-col items-start min-[425px]:max-md:items-center min-[425px]:max-md:text-center">
             <h3 className="text-gray-900 font-bold mb-6 text-lg">Sign up</h3>
 
-            <div className="flex flex-col gap-4 w-full max-w-[400px]">
-              <div className="relative">
+            <div className="flex flex-col xl:flex-row gap-4 w-full max-w-[400px] xl:w-[386.67px] xl:h-[55px]">
+
+              {/* Input */}
+              <div className="relative w-full xl:w-[264px]">
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="w-full h-[54px] rounded-full border border-gray-300 px-6 outline-none focus:border-[#00D16B] transition-colors text-base text-gray-900 shadow-sm"
+                  className="
+                    w-full h-[54px] xl:h-[47px]
+                    rounded-full xl:rounded-[38px]
+                    border border-gray-300
+                    px-6 outline-none
+                    focus:border-[#00D16B]
+                    transition-colors
+                    text-base text-gray-900
+                    shadow-sm
+                  "
                 />
               </div>
-              <button className="w-full h-[54px] rounded-full bg-gradient-to-r from-[#15C15D] to-[#13EC6D] text-white font-extrabold text-base shadow-lg hover:opacity-90 transition-opacity active:scale-[0.98]">
+
+              {/* Button */}
+              <button
+                className="
+      w-full xl:w-[125px]
+      h-[54px] xl:h-[47px]
+      rounded-full xl:rounded-[40px]
+      bg-gradient-to-r from-[#15C15D] to-[#13EC6D]
+      text-white font-extrabold text-base
+      shadow-lg
+      hover:opacity-90 transition-opacity active:scale-[0.98]
+    "
+              >
                 Subscribe
               </button>
+
             </div>
 
             <p className="text-[#052116] text-base mb-2 font-bold mt-8">Get the Cash in Flash app</p>

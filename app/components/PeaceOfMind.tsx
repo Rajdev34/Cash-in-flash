@@ -4,7 +4,8 @@ import Image from "next/image";
 
 export default function PeaceOfMind() {
     return (
-        <section className="relative w-full min-h-[300px] md:h-[400px] flex items-center justify-center overflow-hidden py-16">
+        <section className="relative w-full min-h-[300px] md:h-[400px] flex items-center justify-center overflow-hidden py-16 bg-[#E4FDF2]">
+
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <Image
