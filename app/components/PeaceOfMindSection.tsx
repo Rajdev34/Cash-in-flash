@@ -37,7 +37,10 @@ import Image from "next/image";
 
 export default function PeaceOfMind() {
     return (
-        <section className="relative w-full min-h-[300px] md:h-[400px] flex items-center justify-center overflow-hidden py-16">
+     <section 
+  className="relative w-full min-h-[280px] lg:h-[276px] flex items-center justify-center overflow-hidden py-16"
+  style={{ backgroundColor: '#E4FDF2' }}
+>
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <Image
@@ -47,7 +50,7 @@ export default function PeaceOfMind() {
                     className="object-cover"
                     priority
                 />
-                <div className="absolute inset-0 bg-white/40" />
+               <div className="absolute inset-0 bg-[#E4FDF2]/80" />
             </div>
 
             {/* Content */}
@@ -64,7 +67,7 @@ export default function PeaceOfMind() {
                 </div>
 
                 {/* Tagline */}
-                <h2 className="text-[#052116] text-[28px] sm:text-3xl md:text-5xl font-extrabold tracking-tight mb-8 md:mb-12 max-w-[800px] leading-tight">
+                <h2 className="text-[#052116] text-[28px] sm:text-3xl md:text-5xl tracking-tight mb-8 md:mb-12 max-w-[800px] leading-tight">
                     More than a loan. It's peace of mind.
                 </h2>
 

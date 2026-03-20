@@ -258,7 +258,7 @@ export default function FAQ() {
                     {/* Contact Support Card */}
                     <div className="bg-[#F0F9F4] p-10 rounded-[32px] border border-[#15C15D]/10 max-w-[450px]">
                         <div className="flex items-center gap-4 mb-6">
-                            <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm text-2xl">
+                            <div className="w-14 h-14 bg-[#27B07D33] rounded-full flex items-center justify-center shadow-sm text-2xl">
                                 🤔
                             </div>
                             <div>
